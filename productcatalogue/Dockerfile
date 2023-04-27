@@ -15,7 +15,7 @@ RUN apk add --no-cache maven && \
 RUN mvn package && \
     mv target/*.jar app.jar
 
-# Expose port 8010 for the application
+# Expose port 8020 for the application
 EXPOSE 8020
 
 # Set the command to start the application
